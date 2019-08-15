@@ -1,0 +1,10 @@
+c:\dev\Custom Scripts\FileNameExplorer\FileNameExplorer\bin\Debug\FileNameExplorer.exe
+c:\dev\Custom Scripts\FileNameExplorer\FileNameExplorer\bin\Debug\FileNameExplorer.pdb
+c:\dev\Custom Scripts\FileNameExplorer\FileNameExplorer\bin\Debug\Delimon.Win32.IO.dll
+c:\dev\Custom Scripts\FileNameExplorer\FileNameExplorer\obj\x86\Debug\FileNameValidation.csprojResolveAssemblyReference.cache
+c:\dev\Custom Scripts\FileNameExplorer\FileNameExplorer\obj\x86\Debug\FileNameExplorer.frmInput.resources
+c:\dev\Custom Scripts\FileNameExplorer\FileNameExplorer\obj\x86\Debug\FileNameExplorer.frmMain.resources
+c:\dev\Custom Scripts\FileNameExplorer\FileNameExplorer\obj\x86\Debug\FileNameExplorer.Properties.Resources.resources
+c:\dev\Custom Scripts\FileNameExplorer\FileNameExplorer\obj\x86\Debug\FileNameValidation.csproj.GenerateResource.Cache
+c:\dev\Custom Scripts\FileNameExplorer\FileNameExplorer\obj\x86\Debug\FileNameExplorer.exe
+c:\dev\Custom Scripts\FileNameExplorer\FileNameExplorer\obj\x86\Debug\FileNameExplorer.pdb

@@ -1,0 +1,10 @@
+C:\DEV\Custom Scripts\APUploadInitials\APUploadInitials\bin\Release\APUploadInitials.exe.config
+C:\DEV\Custom Scripts\APUploadInitials\APUploadInitials\bin\Release\APUploadInitials.exe
+C:\DEV\Custom Scripts\APUploadInitials\APUploadInitials\bin\Release\APUploadInitials.pdb
+C:\DEV\Custom Scripts\APUploadInitials\APUploadInitials\obj\x86\Release\APUploadInitials.Form1.resources
+C:\DEV\Custom Scripts\APUploadInitials\APUploadInitials\obj\x86\Release\APUploadInitials.Properties.Resources.resources
+C:\DEV\Custom Scripts\APUploadInitials\APUploadInitials\obj\x86\Release\APUploadInitials.csproj.GenerateResource.cache
+C:\DEV\Custom Scripts\APUploadInitials\APUploadInitials\obj\x86\Release\APUploadInitials.csproj.CoreCompileInputs.cache
+C:\DEV\Custom Scripts\APUploadInitials\APUploadInitials\obj\x86\Release\APUploadInitials.exe
+C:\DEV\Custom Scripts\APUploadInitials\APUploadInitials\obj\x86\Release\APUploadInitials.pdb
+C:\DEV\Custom Scripts\APUploadInitials\APUploadInitials\obj\x86\Release\APUploadInitials.csprojAssemblyReference.cache

@@ -1,0 +1,1 @@
+robocopy "\\rackstation\ClosedProjects\Anderson Hospital Miscellaneous" "\\rackstation\KorteArchive\_ProjectManagment" /S /E /MOVE/IS /IT 

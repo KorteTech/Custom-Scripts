@@ -1,0 +1,33 @@
+robocopy "\\tkcbackups\Technologies\" "\\rackstation\KorteArchive\_Technologies\" /S /E /MOVE /IS /IT
+robocopy "\\tkcbackups\Technologies\" "\\rackstation\KorteArchive\_Technologies\" /S /E /MOVE /IS /IT
+robocopy "\\tkcbackups\Technologies\" "\\rackstation\KorteArchive\_Technologies\" /S /E /MOVE /IS /IT
+robocopy "\\tkcbackups\Technologies\" "\\rackstation\KorteArchive\_Technologies\" /S /E /MOVE /IS /IT
+robocopy "\\tkcbackups\Technologies\" "\\rackstation\KorteArchive\_Technologies\" /S /E /MOVE /IS /IT
+robocopy "\\tkcbackups\Technologies\" "\\rackstation\KorteArchive\_Technologies\" /S /E /MOVE /IS /IT
+robocopy "\\tkcbackups\Technologies\Documentation" "\\tkccloud\Departments\Technologies\Documentation" /S /E /MOVE /IS /IT
+
+
+robocopy "\\tkcbackups\e$\DepartmentsArchive\Preconstruction" "\\rackstation\KorteArchive\_Preconstruction (DO NOT USE - REFER TO TKCCLOUD (R)" /S /E /MOVE /IS /IT
+robocopy "\\tkcbackups\Technologies\vSphere Videos" "\\rackstation\KorteArchive\_Technologies\vSphere Videos" /S /E /MOVE /IS /IT
+robocopy "\\tkcbackups\Technologies\TKCWEB old files" "\\rackstation\KorteArchive\_Technologies\TKCWEB old files" /S /E /MOVE /IS /IT
+
+robocopy "\\tkcbackups\Technologies\Temp" "\\rackstation\KorteArchive\_Technologies\Temp" /S /E /MOVE /IS /IT
+robocopy "\\tkcbackups\Technologies\Speedtest" "\\rackstation\KorteArchive\_Technologies\Speedtest" /S /E /MOVE /IS /IT
+robocopy "\\tkcbackups\Technologies\Shelley KT Files" "\\rackstation\KorteArchive\_Technologies\Shelley KT Files" /S /E /MOVE /IS /IT
+robocopy "\\tkcbackups\Technologies\MacMail Signatures" "\\rackstation\KorteArchive\_Technologies\MacMail Signatures" /S /E /MOVE /IS /IT
+robocopy "\\tkcbackups\Technologies\Jobsites" "\\rackstation\KorteArchive\_Technologies\Jobsites" /S /E /MOVE /IS /IT
+robocopy "\\tkcbackups\Technologies\DoD Root Certs" "\\rackstation\KorteArchive\_Technologies\DoD Root Certs" /S /E /MOVE /IS /IT
+robocopy "\\tkcbackups\Technologies\Contracts - Hardware and Software" "\\rackstation\KorteArchive\_Technologies\Contracts - Hardware and Software" /S /E /MOVE /IS /IT
+robocopy "\\tkcbackups\Technologies\Company Meeting Videos" "\\rackstation\KorteArchive\_Technologies\Company Meeting Videos" /S /E /MOVE /IS /IT
+
+
+robocopy "\\tkcbackups\Technologies\Adminstration Items" "\\rackstation\KorteArchive\_Technologies\Administration Items" /S /E /MOVE /IS /IT
+robocopy "\\tkccloud\Departments\Technologies\Active Directory" "\\rackstation\KorteArchive\_Technologies\Active Directory" /S /E /MOVE /IS /IT
+robocopy "\\tkccloud\Departments\Technologies\2014 Software Audits" "\\rackstation\KorteArchive\_Technologies\2014 Software Audits" /S /E /MOVE /IS /IT
+
+
+Move this to the drobo
+robocopy "\\tkcbackups\Technologies\Email" "\\rackstation\KorteArchive\_Technologies\Email" /S /E /MOVE /IS /IT
+
+robocopy "\\rackstation\KorteArchive\_Technologies\Chad Predmore Files" "\\tkcbackups\e$\EmployeeBackups\2012-06\Chad Predmore Files" /S /E /MOVE /IS /IT
+robocopy "\\rackstation\KorteArchive\_Technologies\Microsoft Downloads from Shelley" \\tkcbackups\e$\Technologies\Microsoft Downloads from Shelley" /S /E /MOVE /IS /IT

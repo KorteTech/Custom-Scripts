@@ -1,0 +1,10 @@
+c:\dev\Custom Scripts\InitialsBox\InitialsBox\bin\Debug\InitialsBox.exe
+c:\dev\Custom Scripts\InitialsBox\InitialsBox\bin\Debug\InitialsBox.pdb
+c:\dev\Custom Scripts\InitialsBox\InitialsBox\obj\x86\Debug\InitialsBox.frmIB.resources
+c:\dev\Custom Scripts\InitialsBox\InitialsBox\obj\x86\Debug\InitialsBox.Properties.Resources.resources
+c:\dev\Custom Scripts\InitialsBox\InitialsBox\obj\x86\Debug\InitialsBox.csproj.GenerateResource.Cache
+c:\dev\Custom Scripts\InitialsBox\InitialsBox\obj\x86\Debug\InitialsBox.exe
+c:\dev\Custom Scripts\InitialsBox\InitialsBox\obj\x86\Debug\InitialsBox.pdb
+C:\DEV\Custom Scripts\InitialsBox\InitialsBox\obj\x86\Debug\InitialsBox.csprojAssemblyReference.cache
+C:\DEV\Custom Scripts\InitialsBox\InitialsBox\obj\x86\Debug\InitialsBox.frmSoftware.resources
+C:\DEV\Custom Scripts\InitialsBox\InitialsBox\obj\x86\Debug\InitialsBox.csproj.CoreCompileInputs.cache

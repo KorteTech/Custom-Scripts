@@ -1,0 +1,1 @@
+powershell -noprofile -ExecutionPolicy Bypass -command "&{ start-process powershell -ArgumentList '-noprofile -ExecutionPolicy Bypass -file ""C:\DEV\Custom Scripts\Disk space\DiskSpace.ps1""' -verb RunAs}"

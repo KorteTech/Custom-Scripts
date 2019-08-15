@@ -1,0 +1,9 @@
+c:\dev\Custom Scripts\html-signature-creator\html-signature-creator\bin\Debug\html-signature-creator.exe.config
+c:\dev\Custom Scripts\html-signature-creator\html-signature-creator\bin\Debug\html-signature-creator.exe
+c:\dev\Custom Scripts\html-signature-creator\html-signature-creator\bin\Debug\html-signature-creator.pdb
+c:\dev\Custom Scripts\html-signature-creator\html-signature-creator\obj\x86\Debug\html-signature-creator.csprojResolveAssemblyReference.cache
+c:\dev\Custom Scripts\html-signature-creator\html-signature-creator\obj\x86\Debug\html_signature_creator.Form1.resources
+c:\dev\Custom Scripts\html-signature-creator\html-signature-creator\obj\x86\Debug\html_signature_creator.Properties.Resources.resources
+c:\dev\Custom Scripts\html-signature-creator\html-signature-creator\obj\x86\Debug\html-signature-creator.csproj.GenerateResource.Cache
+c:\dev\Custom Scripts\html-signature-creator\html-signature-creator\obj\x86\Debug\html-signature-creator.exe
+c:\dev\Custom Scripts\html-signature-creator\html-signature-creator\obj\x86\Debug\html-signature-creator.pdb

@@ -1,0 +1,7 @@
+cscript "C:\DEV\Custom Scripts\JobNoShortcuts\JobNoShortcuts.vbs"
+
+cscript "C:\DEV\Custom Scripts\JobNoShortcuts\ClosedLostJobNoShortcuts.vbs"
+
+cscript "C:\DEV\Custom Scripts\JobNoShortcuts\RemoveAppleDouble.vbs"
+
+cscript "C:\DEV\Custom Scripts\Disk Space\DiskSpace.ps1"

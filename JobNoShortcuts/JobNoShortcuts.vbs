@@ -21,6 +21,7 @@ ShowSubfolders FSO.GetFolder("\\tkccloud\cloudjobview\Missouri"), 1
 ShowSubfolders FSO.GetFolder("\\tkccloud\cloudjobview\National"), 1
 ShowSubfolders FSO.GetFolder("\\tkccloud\cloudjobview\Oklahoma"), 1
 
+
 Sub ShowSubFolders(Folder, Depth)
     If Depth > 0 then
         For Each Subfolder in Folder.SubFolders
@@ -33,7 +34,7 @@ Sub ShowSubFolders(Folder, Depth)
 		  end if
 		
 			'wscript.echo newName
-			'wscript.echo "\\tkccloud\cloudjobview\" + Folder.name + "_JobNo\" + newName
+			wscript.echo "\\tkccloud\cloudjobview\" + Folder.name + "_JobNo\" + newName
 			Set lnk = Shell.CreateShortcut("\\tkccloud\cloudjobview\" + Folder.name + "_JobNo\" + newName + ".lnk")
 			lnk.TargetPath = Subfolder.Path
 			lnk.Save            

@@ -14,6 +14,8 @@ import-module activedirectory
 $Rundate = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
 Write-Output $Rundate
 
+Invoke-Sqlcmd @params -Query "DELETE FROM Loggly.dbo.ADComputersImport" 
+
 
 #Load Computers
 $complist = Get-ADComputer -Filter * -SearchBase "CN=Computers, DC=korteco, DC=com"

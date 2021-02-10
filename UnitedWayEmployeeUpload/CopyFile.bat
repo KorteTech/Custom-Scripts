@@ -1,1 +1,1 @@
-xcopy /s /y "\\tkcbt\Viewpoint Repository\Salesforce\UnitedWayUpload\Korte.csv" "C:\Users\barrykauhl.KCCHI_D\Box\Korte Data"
+xcopy /s /y "\\tkcbt\Viewpoint Repository\Salesforce\UnitedWayUpload\Korte.csv" "C:\Users\barrykauhl\Box\Korte Data"

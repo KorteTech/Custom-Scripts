@@ -1,6 +1,6 @@
 ﻿##param([string]$FolderName)
 ##[System.Security.Principal.WindowsIdentity]::GetCurrent().Name
-$FolderPath = '\\TKCCLoud\cloudJobView\National' # + $FolderName
+$FolderPath = '\\TKCCLoudlv\cloudJobView\' # + $FolderName
 ##$FolderPath = '\\TKCCLoud\cloudJobView\Americas Central Port 100K Whse_40696'
 $Shares=[WMICLASS]'WIN32_Share' 
 
@@ -8,7 +8,8 @@ Get-ChildItem $FolderPath | Where-Object { $_.PSIsContainer } | ForEach-Object {
 $JobFolderPath = $_.FullName
 Write-Output $JobFolderPath
 
-if ($JobFolderPath -ge "\\TKCCLoud\cloudJobView\National\COE ARC Proving Ground Aberdeen MD_20890") {
+
+#if ($JobFolderPath -ge "\\TKCCLoud\cloudJobView\National\COE ARC Proving Ground Aberdeen MD_20890") {
     Write-Output "Apply ACLs to parent folder"
     ##'Subfolders and files only': "ContainerInherit, ObjectInherit", "InheritOnly"
     ##'This folder only': "None", "InheritOnly"
@@ -49,7 +50,7 @@ if ($JobFolderPath -ge "\\TKCCLoud\cloudJobView\National\COE ARC Proving Ground 
     Clear-Variable acl
 
     ##Write-Output "Apply ACLs to child folders"
-    If (1 -eq 2) {
+    If (1 -eq 1) {
     #Set permissions on 2nd level folders 
     Get-ChildItem $JobFolderPath | Where-Object { $_.PSIsContainer } | ForEach-Object {
     
@@ -82,7 +83,7 @@ if ($JobFolderPath -ge "\\TKCCLoud\cloudJobView\National\COE ARC Proving Ground 
         }
         
       }
-     }
+     #}
       
       #break
 }

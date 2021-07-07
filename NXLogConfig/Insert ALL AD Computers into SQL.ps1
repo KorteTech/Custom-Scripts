@@ -2,8 +2,12 @@
 $sqlServer='TKCBT'
 #Invoke-sqlcmd Connection string parameters
 $params = @{'server'='TKCBT';'Database'='Loggly'}
- 
+
+#Run this to allow Invoke-sqlcmd  Install-Module sqlserver
+
+# Install Microsoft RSAT to allow import of this AD module
 import-module activedirectory
+Import-Module sqlserver
 
 
 
@@ -14,6 +18,7 @@ import-module activedirectory
 $Rundate = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
 Write-Output $Rundate
 
+Invoke-sqlcmd @params -Query "Truncate table [Loggly].[dbo].[ADComputersImport]"
 
 # Load Servers
 $vm1list = Get-ADComputer -Filter * -SearchBase "OU=Servers, DC=korteco, DC=com"
@@ -64,7 +69,7 @@ foreach($VM4 in $VM4list) {
 }
 
 #Load Computers
-$complist = Get-ADComputer -Filter * -SearchBase "CN=Computers, DC=korteco, DC=com"
+$complist = Get-ADComputer -Filter * -SearchBase "OU=ComputersMain, DC=korteco, DC=com"
 foreach($Comp in $Complist) {
     Write-Output $Comp.Name
     $Computer = $Comp.Name

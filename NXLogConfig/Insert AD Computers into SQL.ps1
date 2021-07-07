@@ -18,7 +18,7 @@ Invoke-Sqlcmd @params -Query "DELETE FROM Loggly.dbo.ADComputersImport"
 
 
 #Load Computers
-$complist = Get-ADComputer -Filter * -SearchBase "CN=Computers, DC=korteco, DC=com"
+$complist = Get-ADComputer -Filter * -SearchBase "OU=ComputersMain, DC=korteco, DC=com"
 foreach($Comp in $Complist) {
     Write-Output $Comp.Name
     $Computer = $Comp.Name

@@ -1,4 +1,4 @@
-﻿$FolderPath = '\\tkccloud\cloudjobview\National\_National Small Jobs\26697_UOH5 Amazon Refrigeration Go-Back Project, Cincinnati OH'
+﻿$FolderPath = '\\tkccloud\cloudjobview\National\Amazon HGA9 Grocery HUB Cartersville GA_21226'
 
 $Shares=[WMICLASS]'WIN32_Share' 
 
